@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc"
 )
 
-// create the universe
+// create the universe!
 // NewUniverse
 func NewUniverse(listenOn string) *galaxycache.Universe {
 	grpcFetchProtocol := galaxGrpc.NewGRPCFetchProtocol(grpc.WithInsecure())
