@@ -1,8 +1,8 @@
 package gcache
 
 import (
-	"github.com/vimeo/galaxycache"
-	galaxGrpc "github.com/vimeo/galaxycache/grpc"
+	"github.com/localrivet/galaxycache"
+	galaxGrpc "github.com/localrivet/galaxycache/grpc"
 	"go.opencensus.io/plugin/ocgrpc"
 	"google.golang.org/grpc"
 )
